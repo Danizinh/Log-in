@@ -1,6 +1,6 @@
 # Login form
 
-simple form made with css html
+Simple form made with css html
 
 ![Login](https://user-images.githubusercontent.com/81580725/135669834-60edeca1-c810-463d-8a46-5c11e26df2f9.png)
 
