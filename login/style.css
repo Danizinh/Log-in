@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-image: url("./img/pexels-dawn-lio-2293286.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    border: 2px solid #572364;
+    width: 36vh;
+    height: 40vh;
+
+}
+
+legend {
+    color: #fff;
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;
+    background-color: #572364;
+    border-radius: 2px;
+}
+
+
+input {
+    width: 100%;
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #BCA1D1
+}
+
+input:focus {
+    border-color: #fff;
+}
+
+input [type="date"] {
+    font-weight: 800;
+}
+
+span {
+    margin: 1px;
+}
+
+button {
+    padding: 2px 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.general {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(49, 50, 78, 0.4);
+    padding: 15px;
+    /* border-radius: 15px; */
+    width: 36vh;
+    height: 40vh;
+}
+
+.all-inputs {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 800;
+    width: 93%;
+}
+
+.user {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    /* color: #fff; */
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+::placeholder {
+    font-weight: 800;
+    color: #000;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    margin: 10px;
+}
